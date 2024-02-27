@@ -1,0 +1,117 @@
+/*------------------
+    BG COLOR        
+-------------------*/
+
+.ms-bg-header {
+    background-color: #d41c1c;
+}
+
+.ms-bg-lightgreen {
+    background-color: #1ABC9C;
+}
+
+.ms-bg-green {
+    background-color: #3A546D;
+}
+
+.ms-bg-darkblue {
+    background-color: #051E34;
+}
+
+.ms-bg-blue {
+    background-color: #1B72E8;
+}
+
+.ms-bg-white {
+    background-color: white;
+}
+
+.ms-bg-black {
+    background-color: black;
+}
+/*------------------
+    TYPOGRAPHY       
+-------------------*/
+ body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+.ms-text-white {
+    color: white;
+}
+
+.ms-text-lightgreen {
+    color: #1ABC9C;
+}
+
+.ms-text-yellow {
+    color: #FF8F00;
+}
+
+/*------------------
+    BUTTONS   
+-------------------*/
+
+.ms-btn-search {
+    border: none;
+    background-color: #E5E5E5;
+    color: black;
+}
+
+/*------------------
+   IMAGE
+-------------------*/
+
+.img-mobile {
+    height: 46px;
+}
+
+/*------------------
+    GRID LAYOUT    
+-------------------*/
+
+header {
+    height: 70px;
+}
+
+.ms-page-container {
+    height: calc(100vh - 70px);
+}
+
+aside {
+    width: 68px;
+    height: 100%;
+    background-image: url(./img/sidebar-bg.png);
+}
+
+.ms-admin {
+    height: 100px;
+}
+
+main {
+    width: calc(100% - 68px);  
+}
+
+/*------------------
+    INPUT    
+-------------------*/
+.ms-input-search {
+    border: none;
+    background-color: #E5E5E5;
+}
+
+
+/*------------------
+    RESPONSIVE 
+-------------------*/
+
+@media screen and (min-width: 992px) {
+    aside {
+        width: 148px;
+    }
+    main {
+        width: calc(100% - 148px);  
+    }
+}
