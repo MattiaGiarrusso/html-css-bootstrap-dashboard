@@ -60,6 +60,14 @@
     color: black;
 }
 
+.ms-btn-square {
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
 /*------------------
    IMAGE
 -------------------*/
@@ -91,7 +99,8 @@ aside {
 }
 
 main {
-    width: calc(100% - 68px);  
+    width: calc(100% - 68px); 
+    overflow-y: auto;
 }
 
 /*------------------
