@@ -42,6 +42,10 @@
     color: white;
 }
 
+.ms-text-grey {
+    color: grey;
+}
+
 .ms-text-lightgreen {
     color: #1ABC9C;
 }
@@ -77,11 +81,17 @@
 }
 
 /*------------------
+   BADGE
+-------------------*/
+
+/*------------------
     GRID LAYOUT    
 -------------------*/
 
 header {
     height: 70px;
+    /* position: sticky;
+    z-index: 1; */
 }
 
 .ms-page-container {
