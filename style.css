@@ -94,10 +94,6 @@ aside {
     background-image: url(./img/sidebar-bg.png);
 }
 
-.ms-admin {
-    height: 100px;
-}
-
 main {
     width: calc(100% - 68px); 
     overflow-y: auto;
