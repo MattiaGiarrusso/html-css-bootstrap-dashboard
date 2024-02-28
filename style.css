@@ -22,6 +22,10 @@
     background-color: #1B72E8;
 }
 
+.ms-bg-bluebagde {
+    background-color: #165BBA;
+}
+
 .ms-bg-white {
     background-color: white;
 }
@@ -65,7 +69,7 @@
 }
 
 .ms-btn-square {
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
     font-size: 20px;
     padding: 6px 12px;
@@ -83,6 +87,13 @@
 /*------------------
    BADGE
 -------------------*/
+.ms-badge {
+    background-color: #165BBA;
+    line-height: 10px;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 20px;
+}
 
 /*------------------
     GRID LAYOUT    
@@ -117,7 +128,6 @@ main {
     background-color: #E5E5E5;
 }
 
-
 /*------------------
     RESPONSIVE 
 -------------------*/
@@ -129,4 +139,6 @@ main {
     main {
         width: calc(100% - 148px);  
     }
+
+
 }
