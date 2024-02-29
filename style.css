@@ -134,6 +134,14 @@ main {
     overflow-y: auto;
 }
 
+.ms-col-50-table {
+    width: 50%;
+}
+
+#offcanvasScrolling {
+    width: 50%;
+}
+
 /*------------------
     INPUT    
 -------------------*/
@@ -160,12 +168,6 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    #offcanvasScrolling {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 576px) {
     #offcanvasScrolling {
         width: 100%;
     }
