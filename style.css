@@ -148,9 +148,20 @@ main {
     aside {
         width: 148px;
     }
+
     main {
         width: calc(100% - 148px);  
     }
 
+    #offcanvasScrolling {
+        width: 50%;
+    }
 
+
+}
+
+@media screen and (max-width: 768px) {
+    #offcanvasScrolling {
+        width: 100%;
+    }
 }
