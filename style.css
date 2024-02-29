@@ -113,8 +113,8 @@
 -------------------*/
 header {
     height: 70px;
-    /* position: sticky;
-    z-index: 1; */
+    position: sticky;
+    z-index: 1;
 }
 
 .ms-page-container {
@@ -125,6 +125,7 @@ aside {
     width: 68px;
     height: 100%;
     background-image: url(./img/sidebar-bg.png);
+    overflow-y: auto;
 }
 
 main {
@@ -156,8 +157,6 @@ main {
     #offcanvasScrolling {
         width: 50%;
     }
-
-
 }
 
 @media screen and (max-width: 768px) {
