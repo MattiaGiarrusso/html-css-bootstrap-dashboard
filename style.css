@@ -161,6 +161,12 @@ main {
 
 @media screen and (max-width: 768px) {
     #offcanvasScrolling {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #offcanvasScrolling {
         width: 100%;
     }
 }
